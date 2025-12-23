@@ -1,0 +1,14 @@
+.nav1{
+  background-color: rgb(230, 209, 182);
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: rgb(136, 3, 244);
+  font-size: 30px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: rgb(246, 3, 3);   /* hover color */
+}

@@ -1,0 +1,22 @@
+.cards-container {
+  display: flex;
+  gap: 20px;          /* space between cards */
+  padding: 20px;
+  flex-wrap: wrap;   /* moves cards to next row */
+  justify-content: center;
+}
+
+.cards-container {
+  transition: 0.3s;
+}
+
+.cards-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.videos{
+  display: flex;
+}
+
+

@@ -2,7 +2,7 @@
 export default function Video(){
     return(
         <div id="video" style={{display:"flex", justifyContent:"center", alignItems:"center", textAlign:"center", width:"95%", marginTop:"20px"}}>
-            <div >
+            <div>
                 <h1 style={{fontSize:"50px"}}>"Life is like an ice-cream cone, you have to lick it one day at a time".</h1>
             </div>
          <div>

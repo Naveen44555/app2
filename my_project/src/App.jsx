@@ -2,8 +2,8 @@ import Navbar from "./Components/Navbar"
 import ProductCards from "./Components/ProductCards"
 import "./App.css"
 import LastCards from "./Components/LastCards";
-import Video from "./Components/video";
 import Audio from "./Components/Audio";
+import Video from "./Components/Video";
 
 
 const Products=[
@@ -99,7 +99,7 @@ function App() {
       ))}
      </div>
 
-    <Video />
+   <Video />
 
       <div className="cards-container">
       {Last.map((p) => (

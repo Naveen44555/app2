@@ -2,8 +2,8 @@ import Navbar from "./Components/Navbar"
 import ProductCards from "./Components/ProductCards"
 import "./App.css"
 import LastCards from "./Components/LastCards";
-import Audio from "./Components/Audio";
 import Video from "./Components/video";
+import Audio from "./Components/Audio";
 
 
 const Products=[
@@ -90,7 +90,6 @@ const Last=[
 ]
 
 function App() {
-
   return (
     <>
       <Navbar />
@@ -109,7 +108,7 @@ function App() {
      </div>
 
      <LastCards />
-     <Audio />
+    <Audio />
 
     </>
   );

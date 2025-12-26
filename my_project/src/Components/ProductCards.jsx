@@ -12,6 +12,8 @@ const imgStyle = {
   objectFit: "cover",   // very important
   borderRadius: "8px",
 };
+
+
 export default function ProductCards({item}){
   const addToCart = (product) => {
   console.log("Added to cart:", product);

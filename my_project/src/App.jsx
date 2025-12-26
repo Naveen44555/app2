@@ -1,8 +1,10 @@
-import Navbar from "./compoonents/Navbar"
-import ProductCards from "./compoonents/ProductCards"
+import Navbar from "./Components/Navbar"
+import ProductCards from "./Components/ProductCards"
 import "./App.css"
-import Video from "./compoonents/video";
-import LastCards from "./compoonents/LastCards";
+import Video from "./Components/Video";
+import LastCards from "./Components/LastCards";
+import Audio from "./Components/Audio";
+
 
 const Products=[
   {
@@ -110,6 +112,7 @@ function App() {
      </div>
 
      <LastCards />
+     <Audio />
 
     </>
   );

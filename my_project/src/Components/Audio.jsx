@@ -1,8 +1,8 @@
 export default function Audio(){
     return(
         <>
-        <audio>
-            <source src="" type="" />
+        <audio controls>
+            <source src="audio.mp3" type="" />
         </audio>
         </>
     )

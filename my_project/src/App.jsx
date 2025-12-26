@@ -1,9 +1,9 @@
 import Navbar from "./Components/Navbar"
 import ProductCards from "./Components/ProductCards"
 import "./App.css"
-import Video from "./Components/Video";
 import LastCards from "./Components/LastCards";
 import Audio from "./Components/Audio";
+import Video from "./Components/video";
 
 
 const Products=[
@@ -56,15 +56,13 @@ const Products=[
     desc:"this is sweet",
     image:"img7.jpg"
   },
-
    {
     id:8,
     name:"Strawberry",
      price:"₹89",
     desc:"this is sweet",
     image:"img6.jpg"
-  },
-  
+  }
 ]
 
 const Last=[
@@ -91,7 +89,6 @@ const Last=[
   },
 ]
 
-
 function App() {
 
   return (
@@ -103,7 +100,7 @@ function App() {
       ))}
      </div>
 
-     <Video />
+    <Video />
 
       <div className="cards-container">
       {Last.map((p) => (
